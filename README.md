@@ -15,6 +15,7 @@ The site is intentionally non-explicit. It avoids public pricing, explicit servi
 - Formspree-connected application form
 - Honeypot anti-spam field
 - FAQ section
+- EN/ES language toggle
 - FAQPage, Organization, WebSite, and Brand JSON-LD
 - `robots.txt`
 - `sitemap.xml`
@@ -94,6 +95,8 @@ Do not collect ID uploads directly through this static site unless a secure veri
 ## Edit Text
 
 Most public copy lives in `index.html`.
+
+The Spanish interface copy lives in `script.js`, inside the `i18n.es` object. Edit that object if you want to refine Spanish wording without changing the English source copy.
 
 Key sections:
 

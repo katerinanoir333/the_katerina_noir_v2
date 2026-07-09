@@ -105,12 +105,20 @@
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
+    <div class="scroll-progress" aria-hidden="true">
+      <span data-scroll-progress></span>
+    </div>
 
     <header class="site-header" data-header>
       <a class="brand" href="#threshold" aria-label="The Katerina Noir home">
         <span class="brand-seal" aria-hidden="true"></span>
         <span>The Katerina Noir</span>
       </a>
+
+      <div class="language-toggle" aria-label="Language selector">
+        <button class="language-button is-active" type="button" data-language="en" aria-pressed="true">EN</button>
+        <button class="language-button" type="button" data-language="es" aria-pressed="false">ES</button>
+      </div>
 
       <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-nav-toggle>
         <span></span>
@@ -126,6 +134,24 @@
         <a href="#faq">FAQ</a>
       </nav>
     </header>
+
+    <aside class="room-compass" aria-label="House journey" data-room-compass>
+      <span data-room-kicker>Room 01</span>
+      <strong data-room-name>Threshold</strong>
+      <div class="compass-dots" aria-hidden="true">
+        <span class="is-active" data-room-dot="threshold"></span>
+        <span data-room-dot="manifesto"></span>
+        <span data-room-dot="fit"></span>
+        <span data-room-dot="rules"></span>
+        <span data-room-dot="screening"></span>
+        <span data-room-dot="offerings"></span>
+        <span data-room-dot="intention"></span>
+        <span data-room-dot="application-flow"></span>
+        <span data-room-dot="privacy"></span>
+        <span data-room-dot="apply"></span>
+        <span data-room-dot="faq"></span>
+      </div>
+    </aside>
 
     <main id="main">
       <section class="hero section" id="threshold" aria-labelledby="hero-title">
